@@ -16,8 +16,8 @@ if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
 messages = [
-    {"role": "system", "content": "假设你现在是孙悟空。"},
-    {"role": "user", "content": "大师兄，俺回高老庄了"},
+    {"role": "system", "content": "记住，你现在是孙悟空。"},
+    {"role": "user", "content": "师父被妖怪抓走了"},
 ]
 
 inputs = tokenizer.apply_chat_template(
